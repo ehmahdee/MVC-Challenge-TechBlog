@@ -1,0 +1,24 @@
+<section class="new-post-section">
+  <a href="/dashboard/new" class="btn">Create a post here</a>
+</section>
+
+{{#if posts.length}}
+  <section>
+    <h2>Your Dashboard</h2>
+    <ul class="post-list">
+      {{#each posts as |post|}}
+        <li>
+          {{> post-info post}}
+          <a href="/dashboard/edit/{{post.id}}" class="edit-link">edit post</a>
+        </li>
+      {{/each}}
+    </ul>
+  </section>
+{{else}}
+  <section>
+    <h2>Your Dashboard</h2>
+    <p>You haven't created any posts yet.</p>
+  </section>
+{{/if}}
+
+<script src="/js/createpost.js"></script>
