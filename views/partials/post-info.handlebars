@@ -1,0 +1,21 @@
+<article class="post">
+    <div class="whole-post">
+        <!-- Info section that contains post name and created by info -->
+        <div class="info-section">
+            <div class="post-name">
+                <!-- Link to individual post page -->
+                <a href="/post/{{id}}" class="links">{{title}}</a>
+            </div>
+            <div class="created-by">
+                <p id="comment-subtitle">
+                    <!-- Username of the user who created the post and date it was created -->
+                    Posted by <b>{{user.username}} </b> on <b>{{formatDate created_at}}</b>
+                </p>
+            </div>
+        </div>
+        <!-- Content section that contains the actual post content -->
+        <div class="content-section">
+            <p>{{content}}</p>
+        </div>
+    </div>
+</article>

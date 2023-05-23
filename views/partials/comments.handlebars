@@ -1,0 +1,12 @@
+<div class="comments">
+    {{#each this}}             <!-- Loop through each comment in the array -->
+    <section class="comment">  <!-- Create a section for each comment -->
+        <div class="meta">
+            {{user.username}} on {{created_at}}  <!-- Display the username and creation time of the comment -->
+        </div>
+        <div class="text">
+            {{comment_text}}    <!-- Display the text of the comment -->
+        </div>
+    </section>
+    {{/each}}                 <!-- End of loop -->
+</div>
