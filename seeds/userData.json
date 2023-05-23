@@ -1,0 +1,32 @@
+[
+    {
+      "username": "FlowerFrolicking",
+      "email": "flower@bloom.com",
+      "password": "password123"
+    },
+    {
+      "username": "iTouchGrass",
+      "email": "getoutside@exampleemail.com",
+      "password": "password123"
+    },
+    {
+      "username": "iLove-myDog",
+      "email": "cutepuppy@exampleemail.com",
+      "password": "password123"
+    },
+    {
+      "username": "Justice4Veggies",
+      "email": "nomeat@exampleemail.com",
+      "password": "password123"
+    },
+    {
+      "username": "ChillaxPenguin",
+      "email": "coolbird@exampleemail.com",
+      "password": "password123"
+    },
+    {
+      "username": "FlyingPurplePeopleEater",
+      "email": "watchout@exampleemail.com",
+      "password": "password123"
+    }
+  ]
